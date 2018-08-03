@@ -1,0 +1,11 @@
+{
+  "learnocaml_version" : "2",
+  "kind"               : "exercise",
+  "stars"              : 1,
+  "title"              : "Test functions for references",
+  "shortDescription"   : "How to grade exercises whose results are references?",
+  "identifier"         : "step-6-2",
+  "authors"            : [["Carine Morel", "carine.morel.pro@gmail.com"]],
+  "focus"              : [],
+  "requirements"       : []
+}
