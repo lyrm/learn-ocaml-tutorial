@@ -3,19 +3,19 @@ open Report
 
 
 let exercise_1 =
-    Section ([ Text "Function: "; Code "identity" ],
-             test_function_1_against_solution
+    Section ([ Text "Function: "; Code "identity" ; Text " with multiple tested input types." ],
+             [ grade_function_1_against_solution
                [%ty: int -> int] (* [identity] tested with integer *)
                "identity"
-               ~gen:0 [1 ; 2] @
-             test_function_1_against_solution
-               [%ty: char -> char] (* [identity] tested with char *)
-               "identity"
-               ~gen:0 ['c' ; 'a'] @
-             test_function_1_against_solution
-               [%ty: float -> float] (* [identity] tested with float *)
-               "identity"
-               ~gen:0 [1.1 ; 2.4]
+               ~gen:0 [1 ; 2];
+               grade_function_1_against_solution
+                 [%ty: char -> char] (* [identity] tested with char *)
+                 "identity"
+                 ~gen:0 ['c' ; 'a'];
+               grade_function_1_against_solution
+                 [%ty: float -> float] (* [identity] tested with float *)
+                 "identity"
+                 ~gen:0 [1.1 ; 2.4]]
             )
 
 let () =
