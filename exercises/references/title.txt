@@ -1,1 +1,1 @@
-A trivial exercise
+Test functions for references

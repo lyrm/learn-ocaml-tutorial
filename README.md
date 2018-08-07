@@ -14,4 +14,3 @@ For instance, for step 1, do `git checkout step-1`.
 - Different ways to grade a variable 
 
 - How to grade a reference
-
