@@ -1,17 +1,17 @@
 open Test_lib
 open Report
 
-(* Trivial example with simple_test_variable *)
+(* Trivial example with grade_variable *)
 let exercise_0 =
-  simple_test_variable [%ty: int] "forty_two" 42
+  grade_variable [%ty: int] "forty_two" 42
   
-(* More classical example with simple_test_variable_against_solution *)
+(* More classical example with grade_variable_against_solution *)
 let exercise_1 =
-  simple_test_variable_against_solution [%ty: float] "norm"
+  grade_variable_against_solution [%ty: float] "norm"
   
-(* Example with simple_test_variable_property *)
+(* Example with grade_variable_property *)
 let exercise_2 =
-  simple_test_variable_property [%ty: side] "s"  
+  grade_variable_property [%ty: side] "s"  
     (
       fun s ->
       match s with

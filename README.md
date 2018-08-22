@@ -1,4 +1,4 @@
-# How to write exercises for the learn-ocaml platform? (Resources)
+# Step 6: How to grade variables ?
 
 This repository contains the source files for the tutorial
 
@@ -11,6 +11,4 @@ git checkout step-X
 For instance, for step 1, do `git checkout step-1`.
 
 ## What is to learn in this step ?
-- Different ways to grade a variable 
-
-- How to grade a reference
+- Different ways to grade a variable
